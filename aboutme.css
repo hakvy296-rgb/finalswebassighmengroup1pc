@@ -1,0 +1,43 @@
+.aboutbody {
+    width: 100%;
+    height: auto;
+    margin: 100px 20px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .leftcontent {
+    width: 50%;
+    text-align: center;
+  }
+  .leftcontent h1 {
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  .leftcontent p {
+    padding: 60px 0;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+  }
+  
+  .rightcontent {
+    width: 50%;
+    text-align: center;
+  }
+  .rightcontent img {
+    width: 200px; /* Set the width */
+    height:250px; /* Set the height */
+    border-radius: 20%; /* Makes the image round */
+    object-fit: cover; /* Ensures the image covers the area without distortion */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+  }
+  .rightcontent h1 {
+    text-align: center;
+    color: white;
+  }
+  body {
+    background-image: linear-gradient(to right top,
+    blue
+    
+  )}
+  

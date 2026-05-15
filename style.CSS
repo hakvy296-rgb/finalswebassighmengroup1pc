@@ -1,0 +1,199 @@
+/* RESET */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* REMOVE ALL LIST DOTS */
+
+ul,
+li{
+    list-style: none;
+}
+
+/* BODY */
+
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+}
+
+/* IMAGE */
+
+img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* ================= MENU ================= */
+
+.menu{
+    background-color: rgb(5, 5, 137);
+    width: 100%;
+    min-height: 60px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.menu ul li{
+    margin: 10px;
+    font-size: 25px;
+    border-radius: 5px;
+    transition: 0.4s;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    display: block;
+}
+
+.menu ul li:hover{
+    background-color: rgb(185, 246, 145);
+}
+
+.menu ul li:hover a{
+    color: black;
+}
+
+/* ================= LIST ================= */
+
+.list{
+    background-color: blue;
+    width: 100%;
+    min-height: 60px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.list ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.list ul li{
+    margin: 10px;
+    font-size: 25px;
+    border-radius: 5px;
+    transition: 0.4s;
+}
+
+.list ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    display: block;
+}
+
+.list ul li:hover{
+    background-color: rgb(138, 198, 196);
+}
+
+.list ul li:hover a{
+    color: black;
+}
+
+/* ================= TABLE ================= */
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.product-table td{
+    width: 33%;
+    padding: 15px;
+    vertical-align: top;
+    text-align: center;
+    background-color: white;
+}
+
+.product-table ul{
+    padding: 10px;
+}
+
+.product-table li{
+    text-align: left;
+    margin: 5px 0;
+}
+
+/* ================= RESPONSIVE ================= */
+
+@media screen and (max-width: 768px){
+
+    /* MENU */
+
+    .menu{
+        height: auto;
+        padding: 10px 0;
+    }
+
+    .menu ul{
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .menu ul li{
+        width: 90%;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    /* LIST */
+
+    .list{
+        height: auto;
+        padding: 10px 0;
+    }
+
+    .list ul{
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .list ul li{
+        width: 90%;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    /* PRODUCT TABLE */
+
+    .product-table,
+    .product-table tbody,
+    .product-table tr,
+    .product-table td{
+        display: block;
+        width: 100%;
+    }
+
+    .product-table td{
+        margin-bottom: 20px;
+        border-bottom: 2px solid #ddd;
+    }
+
+    h2{
+        font-size: 20px;
+    }
+
+    li{
+        font-size: 14px;
+    }
+}
