@@ -1,2 +1,2 @@
-[ go to about me] (#about-me/html)
+[ go to about me] (#about-me.html)
 
