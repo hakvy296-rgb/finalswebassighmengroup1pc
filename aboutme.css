@@ -25,10 +25,10 @@
     text-align: center;
   }
   .rightcontent img {
-    width: 200px; /* Set the width */
-    height:250px; /* Set the height */
-    border-radius: 20%; /* Makes the image round */
-    object-fit: cover; /* Ensures the image covers the area without distortion */
+    width: 200px; 
+    height:250px; 
+    border-radius: 20%;
+    object-fit: cover; 
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
   }
   .rightcontent h1 {
